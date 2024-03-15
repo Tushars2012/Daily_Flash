@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Assignment1/q5.dart';
+import 'Assignment2/q5.dart';
 
 void main() {
   runApp(const MainApp());

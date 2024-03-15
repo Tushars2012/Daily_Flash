@@ -1,28 +1,32 @@
 import "package:flutter/material.dart";
 
-class Question4 extends StatelessWidget {
-  const Question4({super.key});
+
+class Question1 extends StatelessWidget {
+  const Question1({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
       title: const Text("Daily Flash"),
-      centerTitle: true,
-      backgroundColor:Colors.blue,
-      foregroundColor:Colors.white,
+    
+      backgroundColor:Colors.red
       
     ),
     body:Center(
       child:Container(
-        height:300,
-        width:300,
+        height:200,
+        width:200,
         decoration:BoxDecoration(
-          color:Colors.blue,
+          color:Colors.amber,
           border:Border.all(
             color:Colors.red,
             width:5
-          )
+          ),
+          borderRadius:BorderRadius.circular(20)
+        ),
+        child:const Center(
+          child:Text("Core2web")
         )
       )
     )
